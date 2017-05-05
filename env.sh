@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# url: https://hub.docker.com/_/golang/
 GO_VERSION=1.6
 GO_IMAGE=golang:$GO_VERSION
 
