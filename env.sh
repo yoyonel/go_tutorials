@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 # url: https://hub.docker.com/_/golang/
-GO_VERSION=1.6
+# GO_VERSION=1.6
+GO_VERSION=latest
 GO_IMAGE=golang:$GO_VERSION
 
 DOCKER_VOLUME_PATH="$(realpath .)"
