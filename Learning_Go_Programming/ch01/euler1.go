@@ -16,10 +16,10 @@ func main() {
 	// concurrently using goroutine
 	go func() {
 		for i := 1; i < MAX; i++ {
-			if (i % 3) == 0 || (i % 5) == 0 {
+			if (i%3) == 0 || (i%5) == 0 {
 				work <- i // push for work
 			}
-			
+
 		}
 		close(work)
 	}()
@@ -35,5 +35,5 @@ func main() {
 	}()
 
 	// 3. 	Wait for result, then print
-	fmt.Println("Total:", <- result)
+	fmt.Println("Total:", <-result)
 }

@@ -1,4 +1,4 @@
-# A First Step in Go
+# Chapter 01: A First Step in Go
 
 "Go is an attempt to combine the safety and performance of a statically-typed language
 with the expressiveness and convenience of a dynamically-typed interpreted language."
@@ -43,7 +43,7 @@ goroutine run independently and uses the Go channels to communicate and coordina
 
 "Pointer arithmetic is not permitted at runtime; ..."
 
-# Testing and code coverage
+## Testing and code coverage
 
 "Built-in API and tools designed specially for automated testing, benchmarking, and code coverage."
 "test tools use simple conventions to automatically inspect and instrument the test functions found in your code."
@@ -56,3 +56,9 @@ PASS
 ok  	_/home/latty/Prog/__GOLANG__/go_tutorials/Learning_Go_Programming/ch01/testexample	0.070s
 Success: Tests passed.
 ```
+
+## Documentation
+
+"Documentation is a first-class component in Go."
+
+`$> godoc -http=":6001"`

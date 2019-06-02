@@ -9,4 +9,5 @@ func DivMod(dvdn, dvsr int) (q, r int) {
 		r = r - dvsr
 	}
 	return
+
 }
